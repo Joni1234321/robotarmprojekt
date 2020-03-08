@@ -1,0 +1,16 @@
+PID_Speed_Pos_Red.c
+decoder.h -> decoder.h
+global.h -> global.h
+motor.h -> motor.h
+decoder.c -> decoder.c
+motor.c -> motor.c
+>compiler=C
+>memtype=lmm main ram
+>optimize=-Os
+>-m32bit-doubles
+>-Wall
+>-fno-exceptions
+>-enable_pruning
+>defs::-std=c99
+>-lm
+>BOARD::ACTIVITYBOARD
