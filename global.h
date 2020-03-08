@@ -9,4 +9,8 @@
 #define MOTOR_1_DECODER_PIN_1    11
 #define MOTOR_1_DECODER_PIN_2    12
  
+ 
+#define SERVO_TH1                14
+#define SERVO_TH2                15
+
 #endif
