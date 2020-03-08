@@ -1,11 +1,15 @@
-PID_Speed_Pos_Red.c
+robotarmprojekt.c
+keyboard.c
+keyboard.h
+kin.h
+kin.c
 decoder.h -> decoder.h
-global.h -> global.h
 motor.h -> motor.h
 decoder.c -> decoder.c
 motor.c -> motor.c
+global.h
 >compiler=C
->memtype=lmm main ram
+>memtype=cmm main ram compact
 >optimize=-Os
 >-m32bit-doubles
 >-Wall

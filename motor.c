@@ -46,7 +46,7 @@ void motor_loop(motor_t *m_t, uint32_t *next, uint32_t loop_time, double dt) {
   // Only calculate this every x loops for precise calculation
   m_t->cur_vel = (m_t->pre_pos - m_t->cur_pos) / dt;
 
-  double pid_value;
+  double pid_value = 0;
   
   // Current Values 
   if (m_t->mode == MODE_VEL) {
